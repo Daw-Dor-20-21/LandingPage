@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+}
+/*
+activar la siguiente regla para ver los bordes de todos los elemntos, útil para maquetación
+*/
+/*
+* {
+    border: 1px solid black;
+}*/
+
+.intro {
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-direction: row;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.introText {
+    width: 50vw;
+    align-self: center;
+}
+
+.introImage {
+    width: 50vw;
+    background-image: url("assets/check.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features {
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.featuresText {
+    width: 50vw;
+    align-self: center;
+}
+
+.featuresImage {
+    width: 50vw;
+    background-image: url("assets/socialDistancing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.why {
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.extendedInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.extendedInfo div {
+    
+    flex-basis: 50%;
+    border: 1vh;
+}
+
+.authors {
+    background-color: #c9d6f3;
+}
+.tools {
+    background-color: #c9d6f3;
+}
+
+.infoText{
+    padding: 2em;
+}
