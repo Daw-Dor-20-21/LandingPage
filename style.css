@@ -18,19 +18,15 @@ activar la siguiente regla para ver los bordes de todos los elemntos, útil para
 }
 
 #menu ul {
-    line-height: 100px;
+    line-height: 50px;
     width: 100%;
-    float: right;
     background-color: cadetblue;
 }
 
 #menu ul li {
-    display: inline-block;
-    list-style: none;
-    height: 100px;
+    height: 55px;
     width: 100%;
-    margin-left: 300px;
-    margin-right: 0px;
+    text-align: center;
 }
 
 #menu a {
@@ -110,4 +106,14 @@ activar la siguiente regla para ver los bordes de todos los elemntos, útil para
 
 .infoText {
     padding: 2em;
+}
+
+#foot {
+    background: cadetblue;
+    width: 100%;
+    height: 0px;
+    color: black;
+    text-align: left;
+    position: fixed;
+    bottom: 0px;
 }
