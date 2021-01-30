@@ -5,79 +5,136 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <!-- MENU -->
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="assets/nfc-icon-20576.png"
+                    alt="Es una imagen simplificada de la silueta de un móvil con lineas simulando la conexión NFC"
+                    width="40" height="40"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li>
-                            <a href="#servicios">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="#ventajas">Ventajas</a>
-                        </li>
-                        <li>
-                            <a href="#NFC">Que es una tarjeta NFC?</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">¿Qué es NFC?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ventajas</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Soporte
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Accesos</a>
+                            <a class="dropdown-item" href="#">Área de Gestión</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Atención al Cliente</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+
+
     </header>
     <main>
 
 
         <header class="intro">
-            <div class="introText">
-                <h1>Control de Acceso Seguro</h1>
-                <p>
-                    Gestión de aforo sin contacto con las máximas garantías sanitarias.
-                </p>
-            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="introText col-md-6 col-sm-12">
+                        <h1>Control de Acceso Seguro</h1>
+                        <p>
+                            Gestión de aforo sin contacto con las máximas garantías sanitarias.
+                        </p>
+                    </div>
 
-            </div>
-            <div class="introImage">
 
+
+                    <div class="introImage col-md-6 col-sm-12">
+                        <img src="assets/idea.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
             </div>
         </header>
 
         <!-- PRIMERO VENTAJAS-->
 
         <section class="">
-            <div class="features">
-                <div class="featuresImage"></div>
-                <div class="featuresText">
-                    <h4> Ventajas </h4>
-                    <ul>
-                        <li>Fácil y Limpio</li>
-                        <li>Sostenible y Responsable</li>
-                        <li>Comprometido con el medio ambiente</li>
-                    </ul>
-                    <p>El futuro ya está aquí: Este sistema es muy sencillo de utilizar, teniendo tan solo una tarjeta NFC previamente configurada.</p>
-                </div>
+            <div class="features container">
+                <div class="row">
+                    <div class="featuresImage col-sm-12 col-md-6">
+                        <img src="assets/socialDistancing.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="featuresText col-sm-12 col-md-6">
+                        <h4> Ventajas </h4>
+                        <ul>
+                            <li>Fácil y Limpio</li>
+                            <li>Sostenible y Responsable</li>
+                            <li>Comprometido con el medio ambiente</li>
+                        </ul>
+                        <p>El futuro ya está aquí: Este sistema es muy sencillo de utilizar, teniendo tan solo una
+                            tarjeta
+                            NFC previamente configurada.</p>
+                    </div>
 
+                </div>
             </div>
         </section>
 
         <section class="why">
             <h4>¿El sistema de acceso cumple con la normativa de prevención COVID-19?</h4>
-            <p>Respecto a la normativa de prevención, dada la situación actual de la epidemia, la importancia de la salud de los centros educativos, la necesidad desde el punto de vista de salud pública de continuar con algunas medidas de prevención y control
-                de COVID-19 y la necesidad de convivir con la incertidumbre de cómo va a evolucionar la pandemia, es necesario el diseño de una estrategia para el sistema educativo a partir de septiembre consensuada por los diferentes agentes implicados.</p>
-            <p>Para ofrecer un entorno escolar seguro al alumnado y personal de los centros educativos, se deben establecer una serie de medidas de prevención e higiene y arbitrar medidas de especial protección para aquellos colectivos de mayor vulnerabilidad
-                para COVID-19, con el fin de que se puedan desarrollar las actividades propias del sistema educativo minimizando al máximo el riesgo.</p>
-            <p>Las llamadas "superficies de alto contacto" pueden ser la forma más rápida de propagar un virus a otras superficies y a las personas si no se higienizan de forma efectiva.</p>
-            <p>Esta situación requiere la aplicación de estrategias que permitan hacer compatible la actividad escolar con la necesitad de contener el virus y evitar los rebrotes, garantizando la seguridad y la tranquilidad de los profesores, alumnos y personal
+            <p>Respecto a la normativa de prevención, dada la situación actual de la epidemia, la importancia de la
+                salud de los centros educativos, la necesidad desde el punto de vista de salud pública de continuar con
+                algunas medidas de prevención y control
+                de COVID-19 y la necesidad de convivir con la incertidumbre de cómo va a evolucionar la pandemia, es
+                necesario el diseño de una estrategia para el sistema educativo a partir de septiembre consensuada por
+                los diferentes agentes implicados.</p>
+            <p>Para ofrecer un entorno escolar seguro al alumnado y personal de los centros educativos, se deben
+                establecer una serie de medidas de prevención e higiene y arbitrar medidas de especial protección para
+                aquellos colectivos de mayor vulnerabilidad
+                para COVID-19, con el fin de que se puedan desarrollar las actividades propias del sistema educativo
+                minimizando al máximo el riesgo.</p>
+            <p>Las llamadas "superficies de alto contacto" pueden ser la forma más rápida de propagar un virus a otras
+                superficies y a las personas si no se higienizan de forma efectiva.</p>
+            <p>Esta situación requiere la aplicación de estrategias que permitan hacer compatible la actividad escolar
+                con la necesitad de contener el virus y evitar los rebrotes, garantizando la seguridad y la tranquilidad
+                de los profesores, alumnos y personal
                 no docente.</p>
-            <p>Con este sistema de acceso se intenta permitir cumplir con las recomendaciones de salud comentadas por la normativa y da un valor añadido a las medidas que ya se vienen cumpliendo en el centro.</p>
+            <p>Con este sistema de acceso se intenta permitir cumplir con las recomendaciones de salud comentadas por la
+                normativa y da un valor añadido a las medidas que ya se vienen cumpliendo en el centro.</p>
         </section>
         <!-- SEGUNDO Y TERCERO PUEDEN IR JUNTOS-->
 
@@ -85,16 +142,21 @@
             <!-- SEGUNDO QUIEN -->
             <div class="authors">
                 <div class="infoText">
-                    <h2>Permite el acceso a clase sin entrar en contacto con la puerta</h2>
-                    <h2>Los alumnos de la asignatura de Sistemas Microinformáticos y Redes (SMR) de la isla de Gran Canaria pertenecientes al IES El Rincón proyectan un sistema de acceso con tarjetas NFC que permite el acceso a clase con tan solo utilizar
+                    <h2>Los alumnos de la asignatura de Sistemas Microinformáticos y Redes (SMR) de la isla de Gran
+                        Canaria pertenecientes al IES El Rincón proyectan un sistema de acceso con tarjetas NFC que
+                        permite el acceso a clase con tan solo utilizar
                         una tarjeta de acceso personal para entrar en clase.</h2>
-                    <h3>Con este sistema de acceso, los profesores y alumnos podrán de esta manera entrar en clase si les corresponde y evitar tocar las superficies de alto contacto, principal foco de contagio.</h3>
+                    <h3>Con este sistema de acceso, los profesores y alumnos podrán de esta manera entrar en clase si
+                        les corresponde y evitar tocar las superficies de alto contacto, principal foco de contagio.
+                    </h3>
                 </div>
             </div>
             <div class="idea">
                 <div class="infoText">
                     <h4>Empecemos: ¿Como nació la idea?</h4>
-                    <p>La idea nace de un proyecto de clase de los alumnos de SMR del IES El Rincón como solución a un acceso a clase de forma ordenada y limpia, teniendo en cuenta la situación actual del COVID-19 y relacionado con las superficies de alto
+                    <p>La idea nace de un proyecto de clase de los alumnos de SMR del IES El Rincón como solución a un
+                        acceso a clase de forma ordenada y limpia, teniendo en cuenta la situación actual del COVID-19 y
+                        relacionado con las superficies de alto
                         contacto como son las puertas de acceso a clase.</p>
                 </div>
             </div>
@@ -104,15 +166,20 @@
             <div class="whatIs">
                 <div class="infoText">
                     <h4>¿Que es una tarjeta NFC?</h4>
-                    <p>Las siglas NFC corresponden a Near Field Communication que traducido del inglés, significa comunicación de campo cercano. En realidad se trata de una tecnología que permite la comunicación inalámbrica y el intercambio de datos entre
+                    <p>Las siglas NFC corresponden a Near Field Communication que traducido del inglés, significa
+                        comunicación de campo cercano. En realidad se trata de una tecnología que permite la
+                        comunicación inalámbrica y el intercambio de datos entre
                         dos dispositivos que se encuentren a una distancia inferior a los 20 centímetros.</p>
                 </div>
             </div>
             <div class="tools">
                 <div class="infoText">
                     <h4>¿Con que tecnología se desarrolla?</h4>
-                    <p>Vienen desarrollando este sistema en placas Raspberry, son una plataforma de creación de electrónica de código abierto, la cual está basada en hardware y software libre, flexible y fácil de utilizar para los creadores y desarrolladores.
-                        Esta plataforma permite crear diferentes tipos de microordenadores de una sola placa a los que la comunidad de creadores puede darles diferentes tipos de uso.</p>
+                    <p>Vienen desarrollando este sistema en placas Raspberry, son una plataforma de creación de
+                        electrónica de código abierto, la cual está basada en hardware y software libre, flexible y
+                        fácil de utilizar para los creadores y desarrolladores.
+                        Esta plataforma permite crear diferentes tipos de microordenadores de una sola placa a los que
+                        la comunidad de creadores puede darles diferentes tipos de uso.</p>
                 </div>
             </div>
 
@@ -128,10 +195,15 @@
     <footer class="pb-5" id="foot">
         <h5>© A-Team -- All Rights Reserved.</h5>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
