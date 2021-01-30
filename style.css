@@ -1,13 +1,46 @@
 body {
     box-sizing: border-box;
 }
+
+
 /*
 activar la siguiente regla para ver los bordes de todos los elemntos, útil para maquetación
 */
+
+
 /*
 * {
     border: 1px solid black;
 }*/
+
+#menu {
+    font-size: 30px;
+}
+
+#menu ul {
+    line-height: 100px;
+    width: 100%;
+    float: right;
+    background-color: cadetblue;
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    height: 100px;
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 0px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: darkslategrey
+}
 
 .intro {
     height: calc(100vh - 75px);
@@ -63,7 +96,6 @@ activar la siguiente regla para ver los bordes de todos los elemntos, útil para
 }
 
 .extendedInfo div {
-    
     flex-basis: 50%;
     border: 1vh;
 }
@@ -71,10 +103,11 @@ activar la siguiente regla para ver los bordes de todos los elemntos, útil para
 .authors {
     background-color: #c9d6f3;
 }
+
 .tools {
     background-color: #c9d6f3;
 }
 
-.infoText{
+.infoText {
     padding: 2em;
 }
