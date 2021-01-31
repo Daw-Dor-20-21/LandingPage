@@ -1,115 +1,45 @@
 body {
     box-sizing: border-box;
     font-family: 'Didact Gothic', sans-serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(48deg, rgba(255, 255, 255, 0) 0%, rgba(174, 212, 248, 0.7371323529411764) 32%, rgba(96, 170, 241, 1) 63%, rgba(96, 170, 241, 0.0760679271708683) 100%);
 }
-
-/*
-activar la siguiente regla para ver los bordes de todos los elemntos, útil para maquetación
-*/
-
-/*
-* {
-    border: 1px solid black;
-}*/
 
 main {
     font-family: 'Didact Gothic';
+    font-size: 2vh;
 }
 
-#menu {
-    font-size: 30px;
+.row {
+    margin-bottom: 3vh;
+}
+div p {
+    font-size: 4vh;
 }
 
-#menu ul {
-    line-height: 50px;
-    width: 100%;
-    background-color: rgb(184, 190, 190);
-}
 
-#menu ul li {
-    height: 55px;
-    width: 100%;
-    text-align: center;
-}
-
-#menu a {
-    text-decoration: none;
-    color: black;
-}
-
-#menu a:hover {
-    color: darkslategrey
-}
 
 .intro {
-    height: calc(100vh - 75px);
-    display: flex;
-    flex-direction: row;
     padding-right: 5vw;
     padding-left: 5vw;
 }
 
-.cabecera {
-    align-self: center;
-}
+
 
 .introText {
-    align-self: center;
+ 
     font-family: 'Didact Gothic';
 }
 
-.introImage {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: ;
+
+
+
+.solidBg {
+    background-color:white;
 }
 
-.features {
-    display: flex;
-    flex-direction: row;
-    padding-right: 5vw;
-    padding-left: 5vw;
-}
 
-.featuresText {
-    align-self: center;
-}
 
-.featuresImage {
-    /* background-image: url("assets/socialDistancing.jpg");*/
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.why {
-    padding-right: 5vw;
-    padding-left: 5vw;
-}
-
-.extendedInfo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.extendedInfo div {
-    flex-basis: 50%;
-    border: 1vh;
-}
-
-.authors {
-    background-color: #c9d6f3;
-}
-
-.tools {
-    background-color: #c9d6f3;
-}
-
-.infoText {
-    padding: 2em;
-}
 
 #foot {
     background: rgb(184, 190, 190);
@@ -119,4 +49,5 @@ main {
     text-align: left;
     position: fixed;
     bottom: 0px;
+    font-family: 'Didact Gothic';
 }
