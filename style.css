@@ -11,10 +11,22 @@ main {
 }
 
 .row {
-    margin-bottom: 3vh;
+    margin: 5vh 5vh;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
-div p {
+.altoFila {
+    height: 40vh;
+}
+
+.centerImg {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div p, #ventajas {
     font-size: 4vh;
 }
 
@@ -32,8 +44,8 @@ div p {
 }
 
 .contact {
-    margin-top: 270px;
-    margin-bottom: 270px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 form {
@@ -55,8 +67,7 @@ form h2 {
     margin-bottom: 20px;
 }
 
-input,
-textarea {
+input, textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
@@ -78,7 +89,6 @@ textarea {
 }
 
 footer {
-    background: rgb(184, 190, 190);
     width: 100%;
     height: 0px;
     color: black;
