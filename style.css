@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Chivo', sans-serif;
     background: rgb(255, 255, 255);
     background: linear-gradient(48deg, rgba(255, 255, 255, 0) 0%, rgba(174, 212, 248, 0.7371323529411764) 32%, rgba(96, 170, 241, 1) 63%, rgba(96, 170, 241, 0.0760679271708683) 100%);
 }
@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    font-family: 'Didact Gothic';
+    font-family: 'Chivo', sans-serif;
     font-size: 2vh;
 }
 
@@ -33,11 +33,7 @@ main {
     height: 40vh;
 }
 
-.centerImg {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 
 div p, #ventajas {
     font-size: 4vh;
@@ -49,7 +45,7 @@ div p, #ventajas {
 }
 
 .introText {
-    font-family: 'Didact Gothic';
+    font-family: 'Chivo', sans-serif;
 }
 
 .solidBg {
@@ -106,7 +102,7 @@ footer {
     text-align: left;
     position: fixed;
     bottom: 0px;
-    font-family: 'Didact Gothic';
+    font-family: 'Chivo', sans-serif;
 }
 
 .team {
