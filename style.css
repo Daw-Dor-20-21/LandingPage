@@ -26,17 +26,15 @@ main {
 
 .row {
     margin: 5vh 5vh;
- 
 }
 
 .altoFila {
     height: 40vh;
 }
 
-
-
-div p, #ventajas {
-    font-size: 4vh;
+div p,
+#ventajas {
+    font-size: 3vh;
 }
 
 .intro {
@@ -72,7 +70,8 @@ form {
     height: auto;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
