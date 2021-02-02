@@ -82,16 +82,6 @@ textarea {
     max-height: 200px;
 }
 
-#boton {
-    color: rgb(75, 74, 74);
-    background: #a39c94;
-}
-
-#boton:hover {
-    color: black;
-    cursor: pointer;
-}
-
 footer {
     background: rgb(184, 190, 190);
     width: 100%;
@@ -102,6 +92,11 @@ footer {
     position: fixed;
     bottom: 0px;
     font-family: 'Chivo', sans-serif;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
 }
 
 .team {
