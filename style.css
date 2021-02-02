@@ -24,13 +24,6 @@ main {
     font-size: 2vh;
 }
 
-.row {
-    margin: 5vh 5vh;
-}
-
-.altoFila {
-    height: 40vh;
-}
 
 div p,
 #ventajas {
@@ -80,31 +73,4 @@ textarea {
 textarea {
     min-height: 100px;
     max-height: 200px;
-}
-
-footer {
-    background: rgb(184, 190, 190);
-    width: 100%;
-    height: 0%;
-    margin-top: 5px;
-    color: black;
-    text-align: left;
-    position: fixed;
-    bottom: 0px;
-    font-family: 'Chivo', sans-serif;
-}
-
-.pie {
-    display: flex;
-    justify-content: space-between;
-}
-
-.team {
-    display: inline;
-    margin-left: 10px;
-}
-
-.link {
-    float: right;
-    margin-right: 20px;
 }
